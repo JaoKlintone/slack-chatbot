@@ -18,7 +18,7 @@ BOT_ID = client.api_call("auth.test")['user_id']
 message_counts = {}
 welcome_messages = {}
 
-BAD_WORDS = ['pusi', 'kurac', 'sisa']
+BAD_WORDS = ['rec']
 
 class WelcomeMessage:
     START_TEXT = {
